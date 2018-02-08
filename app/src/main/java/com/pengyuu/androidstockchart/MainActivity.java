@@ -1,8 +1,8 @@
 package com.pengyuu.androidstockchart;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,9 +15,19 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * K线图
+     *
      * @param view
      */
     public void onCandleClick(View view) {
-        startActivity(new Intent(MainActivity.this,CandleStickChartActivity.class));
+        startActivity(new Intent(MainActivity.this, CandleStickChartActivity.class));
+    }
+
+    /**
+     * 分时图
+     *
+     * @param view
+     */
+    public void onImmediateClick(View view) {
+        startActivity(new Intent(MainActivity.this, ImmediateActivity.class));
     }
 }

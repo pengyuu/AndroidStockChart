@@ -1,10 +1,12 @@
-package com.pengyuu.androidstockchart;
+package com.pengyuu.androidstockchart.utils;
 
 import android.content.Context;
 
 import com.github.mikephil.charting.data.CandleEntry;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.pengyuu.androidstockchart.data.Model;
+import com.pengyuu.androidstockchart.R;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

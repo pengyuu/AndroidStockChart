@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".CandleStickChartActivity"
+        <activity
+            android:name=".CandleStickChartActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".ImmediateActivity"
             android:screenOrientation="landscape">
         </activity>
     </application>

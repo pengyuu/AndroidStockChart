@@ -1,4 +1,4 @@
-package com.pengyuu.androidstockchart;
+package com.pengyuu.androidstockchart.data;
 
 import com.github.mikephil.charting.data.CandleEntry;
 

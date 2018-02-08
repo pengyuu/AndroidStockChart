@@ -1,4 +1,4 @@
-package com.pengyuu.androidstockchart;
+package com.pengyuu.androidstockchart.data;
 
 /**
  * chart data model
